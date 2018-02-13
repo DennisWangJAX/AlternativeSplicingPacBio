@@ -1,0 +1,13 @@
+##gff-version 2
+##source-version rtracklayer 1.38.3
+##date 2018-02-13
+chr1	PacBio	transcript	156031598	156050531	.	-	.	gene_id "ENSG00000160803.7"; transcript_id "PB.1786.51"; gffcompare_gene_id "PB.1786"; gffcompare_gene_name "UBQLN4"; gffcompare_xloc "XLOC_001053"; gffcompare_cmp_ref "ENST00000368309.3"; gffcompare_class_code "j"; gffcompare_tss_id "TSS1808"; gffcompare_contained_in "NA"; matchAnnot_cmp_ref "UBQLN4-001"; matchAnnot_skipped_exon "NA"; matchAnnot_extra_exon "1,2"; matchAnnot_gene "UBQLN4"; matchAnnot_score "2"; matchAnnot_ENST "ENST00000368309.3"; matchAnnot_ENSG "ENSG00000160803.7"; matchAnnot_length "3576"; matchAnnot_num_exons "11"; matchAnnot_exon_list "['[]', '[]', '[2]', '[3]', '[4]', '[5]', '[6]', '[7]', '[8]']"; matchAnnot_comments "failed first and last exon"; matchAnnot_exon_skipped_id "NA";
+chr1	PacBio	exon	156031598	156032283	.	-	.	gene_id "ENSG00000160803.7"; transcript_id "PB.1786.51"; gffcompare_gene_id "PB.1786"; exon_number "1"
+chr1	PacBio	exon	156032406	156033314	.	-	.	gene_id "ENSG00000160803.7"; transcript_id "PB.1786.51"; gffcompare_gene_id "PB.1786"; exon_number "2"
+chr1	PacBio	exon	156041485	156041671	.	-	.	gene_id "ENSG00000160803.7"; transcript_id "PB.1786.51"; gffcompare_gene_id "PB.1786"; exon_number "3"
+chr1	PacBio	exon	156041872	156041987	.	-	.	gene_id "ENSG00000160803.7"; transcript_id "PB.1786.51"; gffcompare_gene_id "PB.1786"; exon_number "4"
+chr1	PacBio	exon	156042153	156042236	.	-	.	gene_id "ENSG00000160803.7"; transcript_id "PB.1786.51"; gffcompare_gene_id "PB.1786"; exon_number "5"
+chr1	PacBio	exon	156042774	156042913	.	-	.	gene_id "ENSG00000160803.7"; transcript_id "PB.1786.51"; gffcompare_gene_id "PB.1786"; exon_number "6"
+chr1	PacBio	exon	156043998	156044223	.	-	.	gene_id "ENSG00000160803.7"; transcript_id "PB.1786.51"; gffcompare_gene_id "PB.1786"; exon_number "7"
+chr1	PacBio	exon	156048501	156048659	.	-	.	gene_id "ENSG00000160803.7"; transcript_id "PB.1786.51"; gffcompare_gene_id "PB.1786"; exon_number "8"
+chr1	PacBio	exon	156050291	156050531	.	-	.	gene_id "ENSG00000160803.7"; transcript_id "PB.1786.51"; gffcompare_gene_id "PB.1786"; exon_number "9"
