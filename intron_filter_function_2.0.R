@@ -15,7 +15,7 @@ intron_filter <- function(gff){
   }
 
   ## Data Cleaning function
-  find_retention <- function(input_binary_mat){
+  find_retention <- function(input_binary_mat, head_tail_test = F){
     test_output <- logical(ncol(input_binary_mat)) == F
     num_zero <- 1
     jud <- TRUE
@@ -31,6 +31,11 @@ intron_filter <- function(gff){
             if(j != i){
               if(identical(input_binary_mat[, j][index:(index+length(pat)-1)],pat_1)){
                 test_output[j] <- FALSE
+                if(head_tail_test){
+                  for(k in (1:ncol(input_binary_mat))){
+                    if(any(is.na(input_binary_mat[, k][index:(index+length(pat)-1)]))){test_output[k] = F}
+                  }
+                }
               }
             }
           }
@@ -52,16 +57,23 @@ intron_filter <- function(gff){
     export(gtf[ gtf$transcript_biotype %in% "protein_coding", ], "Gencode_proteinCoding.gtf")
   }
 
-  gencode_gtf <- import.gff("Gencode_proteinCoding.gtf")
-  gr = import.gff(gff)
-  gencode_gtf_gene <- gencode_gtf[gencode_gtf$gene_name %in% gr$gffcompare_gene_name]
-  gencode_exon = gencode_gtf_gene[gencode_gtf_gene$type == "exon"]
-  gencode_base = reduce(gencode_exon)
+
   split_name <- unlist(strsplit(gff, split = "\\."))
   export_gtf_name <- paste("gencode_", split_name[1], ".gtf", sep = "")
-  export(gencode_exon, export_gtf_name)
-  print(paste(Sys.time(), "Compare gtf file from Gencode AH51014 is saved to:", export_gtf_name)); flush.console()
+  if(!file.exists(export_gtf_name)){
+    gencode_gtf <- import.gff("Gencode_proteinCoding.gtf")
+    gr = import.gff(gff)
+    gencode_gtf_gene <- gencode_gtf[gencode_gtf$gene_name %in% gr$gffcompare_gene_name]
+    gencode_exon = gencode_gtf_gene[gencode_gtf_gene$type == "exon"]
+    export(gencode_exon, export_gtf_name)
+    print(paste(Sys.time(), ": compare gtf file from Gencode AH51014 is saved to:", export_gtf_name)); flush.console()
+  }
 
+  else{gencode_exon = import.gff(export_gtf_name)}
+
+  gencode_list_input = split(gencode_exon, gencode_exon$transcript_id)
+  gencode_base = reduce(gencode_exon)
+  gr = import.gff(gff)
   gr_exon = gr[gr$type=="exon"]
   gr_list_input = split(gr_exon, gr_exon$transcript_id)
   isoform_names <- names(gr_list_input)
@@ -125,18 +137,25 @@ intron_filter <- function(gff){
   stick = GRanges(seqnames=chr, ranges =IRanges(start=stick, end=stick))
   mat = matrix(unlist(lapply(gr_list_input, populateMatrix, stick)), ncol=length(stick), byrow=T)
   mat = t(mat)
-  mat_gencode = rep(FALSE, nrow(mat))
 
-  for (i in (1:length(gencode_base))){
-    gencode_start <- start(gencode_base)[i] - start(gr_base)[1]
-    gencode_end <- gencode_start + width(gencode_base)[i]
-    print(c(gencode_start, gencode_end))
-    mat_gencode[gencode_start:gencode_end] = T
+  mat_gencode = matrix(FALSE, nrow = nrow(mat), ncol = length(gencode_list_input))
+  for (j in (1:length(gencode_list_input))){
+    temp <- unlist(gencode_list_input[j])
+    for (i in (1:length(temp))){
+      gencode_start <- start(temp)[i] - start(gr_base)[1] + 1
+      gencode_end <- gencode_start + width(temp)[i] - 1
+      mat_gencode[, j][gencode_start:gencode_end] = T
+    }
   }
+
+  #for (i in (1:length(gencode_base))){
+  #  gencode_start <- start(gencode_base)[i] - start(gr_base)[1]
+  #  gencode_end <- gencode_start + width(gencode_base)[i]
+  #  print(c(gencode_start, gencode_end))
+  #  mat_gencode[gencode_start:gencode_end] = T
+  #}
   out_disjoin <- matrix(NA, ncol = ncol(mat), nrow = length(piece))
-  gencode_out_disjoin <- matrix(NA, ncol= 1, length(piece))
-  colnames(out) <- colnames(mat)
-  rownames(out) <- colnames(mat)
+  gencode_out_disjoin <- matrix(NA, ncol= ncol(mat_gencode), length(piece))
 
 
   # Based on Disjoin
@@ -154,27 +173,42 @@ intron_filter <- function(gff){
 
 
   # Calculating for gencode standard set
-  for(j in 1:(nrow(gencode_out_disjoin))){
-    tract_e <- sum(width(piece)[1:j])
-    tract_s <- tract_e - width(piece)[j] + 1
-    compare_region <- mat_gencode[tract_s:tract_e]
-    val <- sum(compare_region, na.rm = TRUE)/(width(piece)[j])
-    if(val<1){val = 0}
-    gencode_out_disjoin[j, 1] <- val
+  for(i in (1:ncol(gencode_out_disjoin))){
+    for(j in 1:(nrow(gencode_out_disjoin))){
+      tract_e <- sum(width(piece)[1:j])
+      tract_s <- tract_e - width(piece)[j] + 1
+      compare_region <- mat_gencode[, i][tract_s:tract_e]
+      val <- sum(compare_region, na.rm = TRUE)/(width(piece)[j])
+      gencode_out_disjoin[j, i] <- val
+    }
   }
+  # Recognize head and tail
+  for(i in (1:ncol(gencode_out_disjoin))){
+    temp <- gencode_out_disjoin[, i]
+    first_one <- which(temp==1)[1]
+    last_one <- which(temp==1)[sum(temp)]
+    if(first_one > 1){gencode_out_disjoin[, i][1:(first_one-1)] = NA}
+    if(last_one < nrow(gencode_out_disjoin)){gencode_out_disjoin[, i][(last_one+1):nrow(gencode_out_disjoin)] = NA}
+  }
+
   # Separation Line
 
 
   # Getting rid of isoforms with potential new exons
-  gencode_test <- find_retention(cbind(gencode_out_disjoin, out_disjoin[,1]))
-
+  pre_test <- logical(ncol(out_disjoin)) == F
+  for (i in (1:ncol(out_disjoin))){
+    gencode_test <- find_retention(cbind(gencode_out_disjoin, out_disjoin[,i]), head_tail_test = T)
+    if(identical(gencode_test[1:(length(gencode_test)-1)],rep(FALSE, length(gencode_test)-1)) & gencode_test[length(gencode_test)] == T){pre_test[i] = F}
+  }
   # Separation Line
 
+  isoform_names_filtered = isoform_names[pre_test] # Potential isoforms with new exons are removed
+  out_disjoin_filtered = out_disjoin[, pre_test]
 
-  test <- find_retention(out_disjoin)
+  test <- find_retention(out_disjoin_filtered)
 
-  for (i in 1:length(isoform_names)){
-    if (gr[gr$transcript_id == isoform_names[i]]$matchAnnot_gene[1] != gr[gr$transcript_id == isoform_names[i]]$gffcompare_gene_name[1]){
+  for (i in 1:length(isoform_names_filtered)){
+    if (gr[gr$transcript_id == isoform_names_filtered[i]]$matchAnnot_gene[1] != gr[gr$transcript_id == isoform_names_filtered[i]]$gffcompare_gene_name[1]){
       test[i] <- FALSE
     }
 
@@ -182,7 +216,8 @@ intron_filter <- function(gff){
 
 
   print(paste(Sys.time(), ": exporting two files...")); flush.console()
-  export(gr[gr$transcript_id %in% isoform_names[test]], paste(split_name[1],"_remain2.0",".",split_name[2], sep=""))
-  export(gr[gr$transcript_id %in% isoform_names[test==F]], paste(split_name[1],"_filtered2.0",".",split_name[2], sep=""))
-  list("remain" = isoform_names[test], "filtered" = isoform_names[test==F])
+  export(gr[gr$transcript_id %in% isoform_names[!pre_test]], paste(split_name[1],"_potential_new_exon",".",split_name[2], sep=""))
+  export(gr[gr$transcript_id %in% isoform_names_filtered[test]], paste(split_name[1],"_remain2.0",".",split_name[2], sep=""))
+  export(gr[gr$transcript_id %in% isoform_names_filtered[test==F]], paste(split_name[1],"_filtered2.0",".",split_name[2], sep=""))
+  list("prefiltered_new_exon" = isoform_names[!pre_test], "remain" = isoform_names_filtered[test], "filtered" = isoform_names_filtered[test==F])
 }
