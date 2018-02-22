@@ -229,5 +229,6 @@ intron_filter_by_GRanges <- function(gr_input){
   print(paste(Sys.time(), ": done.")); flush.console()
   list("prefiltered_new_exon" = isoform_names[!pre_test], "remain" = isoform_names_filtered[test], "filtered" = isoform_names_filtered[test==F],
        "remain_binary" = out_disjoin_filtered[, test], "filtered_binary" = out_disjoin_filtered[, !test],
-       "prefiltered_new_exon_count" = sum(!pre_test), "remain_count" = sum(test), "filtered_count" = sum(!test))
+       "prefiltered_new_exon_count" = sum(!pre_test), "remain_count" = sum(test), "filtered_count" = sum(!test),
+       "isoform_count" = isoform_count)
 }
