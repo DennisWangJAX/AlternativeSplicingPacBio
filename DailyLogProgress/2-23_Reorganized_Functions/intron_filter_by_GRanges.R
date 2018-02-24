@@ -33,11 +33,12 @@ intron_filter_by_GRanges <- function(gr_input){
   isoform_names <- names(gr_list_input)
   isoform_count = length(unique(gr_exon$transcript_id))
 
-
-  cov = base::as.vector(GenomicRanges::coverage(gr_exon)[[1]])
+  chr = unique(seqnames(gr_list_input[[1]]))
+  chr_num = as.numeric(strsplit(toString(chr), split = "chr")[[1]][2])
+  cov = base::as.vector(GenomicRanges::coverage(gr_exon)[[chr_num]])
   extract = which(cov>0)
   extract_high = which(cov>isoform_count*0.1)
-  chr = unique(seqnames(gr_list_input[[1]]))
+  
   gr_extract = reduce(GRanges(chr, range=IRanges(start=extract, end=extract)))
   gr_extract_high = reduce(GRanges(seqnames=chr, range=IRanges(extract_high, extract_high)))
 
