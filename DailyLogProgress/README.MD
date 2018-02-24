@@ -10,3 +10,4 @@ Added debug for exceptions:
 2/23:
 1. Added the visualize_cluster function
 2. Modified the intron_filter_by_GRanges @line 156 - 158 for the exception of having an output of vector (out_disjoin_filtered)
+3. Fixed bug in intron_filter_by_GRanges @line 36 - 38. Turn the chr value into numeric to fix the [coverage] function. A bug in IsoView as well. (Arbitrary Selection) Original Error: invalid class “GRanges” object: 'mcols(x)' is not parallel to 'x'
