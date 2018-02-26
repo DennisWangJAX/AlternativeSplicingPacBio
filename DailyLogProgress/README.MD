@@ -17,3 +17,6 @@ All for updates in intron_filter_by_GRanges function
 1. Fixed exception at line 36 - 38. Provide the exception for X chromosome as for 23 numeric value.
 2. Add if command starting at line 167. Fixed the exception when ncol(out_disjoin_filtered) == 0.
 3. Change in the output, for everything that contains !test when test == NULL
+
+2/26:
+Added the outputs (csv) for the binary forms of isoforms. Each is characterized by a leading sign. "P" for prefiltered, "F" for filtered, "R" for remain.
