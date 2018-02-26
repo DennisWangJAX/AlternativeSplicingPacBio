@@ -1,0 +1,24 @@
+##gff-version 2
+##source-version rtracklayer 1.38.3
+##date 2018-02-24
+chr1	PacBio	transcript	145719444	145739152	.	+	.	gene_id "ENSG00000117281.15"; transcript_id "PB.604.3"; gffcompare_gene_id "PB.604"; gffcompare_gene_name "CD160"; gffcompare_xloc "XLOC_000346"; gffcompare_cmp_ref "ENST00000369288.6"; gffcompare_class_code "="; gffcompare_tss_id "TSS593"; gffcompare_contained_in "NA"; matchAnnot_cmp_ref "CD160-001"; matchAnnot_skipped_exon "NA"; matchAnnot_extra_exon "NA"; matchAnnot_gene "CD160"; matchAnnot_score "5"; matchAnnot_ENST "ENST00000369288.6"; matchAnnot_ENSG "ENSG00000117281.15"; matchAnnot_length "1424"; matchAnnot_num_exons "6"; matchAnnot_exon_list "['[1]', '[2]', '[3]', '[4]', '[5]', '[6]']"; matchAnnot_comments "kept first and last exon"; matchAnnot_exon_skipped_id "NA";
+chr1	PacBio	exon	145719444	145719559	.	+	.	gene_id "ENSG00000117281.15"; transcript_id "PB.604.3"; gffcompare_gene_id "PB.604"; exon_number "1"
+chr1	PacBio	exon	145724801	145724906	.	+	.	gene_id "ENSG00000117281.15"; transcript_id "PB.604.3"; gffcompare_gene_id "PB.604"; exon_number "2"
+chr1	PacBio	exon	145728256	145728400	.	+	.	gene_id "ENSG00000117281.15"; transcript_id "PB.604.3"; gffcompare_gene_id "PB.604"; exon_number "3"
+chr1	PacBio	exon	145730744	145731070	.	+	.	gene_id "ENSG00000117281.15"; transcript_id "PB.604.3"; gffcompare_gene_id "PB.604"; exon_number "4"
+chr1	PacBio	exon	145735997	145736134	.	+	.	gene_id "ENSG00000117281.15"; transcript_id "PB.604.3"; gffcompare_gene_id "PB.604"; exon_number "5"
+chr1	PacBio	exon	145738486	145739152	.	+	.	gene_id "ENSG00000117281.15"; transcript_id "PB.604.3"; gffcompare_gene_id "PB.604"; exon_number "6"
+chr1	PacBio	transcript	145719446	145739150	.	+	.	gene_id "ENSG00000117281.15"; transcript_id "PB.604.2"; gffcompare_gene_id "PB.604"; gffcompare_gene_name "CD160"; gffcompare_xloc "XLOC_000346"; gffcompare_cmp_ref "ENST00000369288.6"; gffcompare_class_code "j"; gffcompare_tss_id "TSS593"; gffcompare_contained_in "NA"; matchAnnot_cmp_ref "CD160-001"; matchAnnot_skipped_exon "2"; matchAnnot_extra_exon "NA"; matchAnnot_gene "CD160"; matchAnnot_score "2"; matchAnnot_ENST "ENST00000369288.6"; matchAnnot_ENSG "ENSG00000117281.15"; matchAnnot_length "1424"; matchAnnot_num_exons "6"; matchAnnot_exon_list "['[1]', '[3]', '[4]', '[5]', '[6]']"; matchAnnot_comments "kept first and last exon and skipped exons"; matchAnnot_exon_skipped_id "JB-213";
+chr1	PacBio	exon	145719446	145719559	.	+	.	gene_id "ENSG00000117281.15"; transcript_id "PB.604.2"; gffcompare_gene_id "PB.604"; exon_number "1"
+chr1	PacBio	exon	145728256	145728400	.	+	.	gene_id "ENSG00000117281.15"; transcript_id "PB.604.2"; gffcompare_gene_id "PB.604"; exon_number "2"
+chr1	PacBio	exon	145730744	145731070	.	+	.	gene_id "ENSG00000117281.15"; transcript_id "PB.604.2"; gffcompare_gene_id "PB.604"; exon_number "3"
+chr1	PacBio	exon	145735997	145736134	.	+	.	gene_id "ENSG00000117281.15"; transcript_id "PB.604.2"; gffcompare_gene_id "PB.604"; exon_number "4"
+chr1	PacBio	exon	145738486	145739150	.	+	.	gene_id "ENSG00000117281.15"; transcript_id "PB.604.2"; gffcompare_gene_id "PB.604"; exon_number "5"
+chr1	PacBio	transcript	145719449	145739149	.	+	.	gene_id "ENSG00000117281.15"; transcript_id "PB.604.1"; gffcompare_gene_id "PB.604"; gffcompare_gene_name "CD160"; gffcompare_xloc "XLOC_000346"; gffcompare_cmp_ref "ENST00000369288.6"; gffcompare_class_code "j"; gffcompare_tss_id "TSS593"; gffcompare_contained_in "NA"; matchAnnot_cmp_ref "CD160-001"; matchAnnot_skipped_exon "NA"; matchAnnot_extra_exon "4"; matchAnnot_gene "CD160"; matchAnnot_score "2"; matchAnnot_ENST "ENST00000369288.6"; matchAnnot_ENSG "ENSG00000117281.15"; matchAnnot_length "1424"; matchAnnot_num_exons "6"; matchAnnot_exon_list "['[1]', '[2]', '[3]', '[]', '[4]', '[5]', '[6]']"; matchAnnot_comments "kept first and last exon"; matchAnnot_exon_skipped_id "NA";
+chr1	PacBio	exon	145719449	145719559	.	+	.	gene_id "ENSG00000117281.15"; transcript_id "PB.604.1"; gffcompare_gene_id "PB.604"; exon_number "1"
+chr1	PacBio	exon	145724801	145724906	.	+	.	gene_id "ENSG00000117281.15"; transcript_id "PB.604.1"; gffcompare_gene_id "PB.604"; exon_number "2"
+chr1	PacBio	exon	145728256	145728400	.	+	.	gene_id "ENSG00000117281.15"; transcript_id "PB.604.1"; gffcompare_gene_id "PB.604"; exon_number "3"
+chr1	PacBio	exon	145730535	145730562	.	+	.	gene_id "ENSG00000117281.15"; transcript_id "PB.604.1"; gffcompare_gene_id "PB.604"; exon_number "4"
+chr1	PacBio	exon	145730744	145731070	.	+	.	gene_id "ENSG00000117281.15"; transcript_id "PB.604.1"; gffcompare_gene_id "PB.604"; exon_number "5"
+chr1	PacBio	exon	145735997	145736134	.	+	.	gene_id "ENSG00000117281.15"; transcript_id "PB.604.1"; gffcompare_gene_id "PB.604"; exon_number "6"
+chr1	PacBio	exon	145738486	145739149	.	+	.	gene_id "ENSG00000117281.15"; transcript_id "PB.604.1"; gffcompare_gene_id "PB.604"; exon_number "7"

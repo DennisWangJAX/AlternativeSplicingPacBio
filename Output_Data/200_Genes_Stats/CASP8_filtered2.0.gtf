@@ -1,0 +1,20 @@
+##gff-version 2
+##source-version rtracklayer 1.38.3
+##date 2018-02-24
+chr2	PacBio	transcript	201233465	201287705	.	+	.	gene_id "ENSG00000064012.21"; transcript_id "PB.11227.37"; gffcompare_gene_id "PB.11227"; gffcompare_gene_name "CASP8"; gffcompare_xloc "XLOC_006274"; gffcompare_cmp_ref "ENST00000264275.9"; gffcompare_class_code "j"; gffcompare_tss_id "TSS11067"; gffcompare_contained_in "NA"; matchAnnot_cmp_ref "CASP8-002"; matchAnnot_skipped_exon "5,6"; matchAnnot_extra_exon "1"; matchAnnot_gene "CASP8"; matchAnnot_score "2"; matchAnnot_ENST "ENST00000358485.8"; matchAnnot_ENSG "ENSG00000064012.21"; matchAnnot_length "2930"; matchAnnot_num_exons "9"; matchAnnot_exon_list "['[]', '[3]', '[4]', '[7]', '[8]', '[9]']"; matchAnnot_comments "failed first and last exon"; matchAnnot_exon_skipped_id "NA";
+chr2	PacBio	exon	201233465	201234112	.	+	.	gene_id "ENSG00000064012.21"; transcript_id "PB.11227.37"; gffcompare_gene_id "PB.11227"; exon_number "1"
+chr2	PacBio	exon	201271516	201271621	.	+	.	gene_id "ENSG00000064012.21"; transcript_id "PB.11227.37"; gffcompare_gene_id "PB.11227"; exon_number "2"
+chr2	PacBio	exon	201272638	201272776	.	+	.	gene_id "ENSG00000064012.21"; transcript_id "PB.11227.37"; gffcompare_gene_id "PB.11227"; exon_number "3"
+chr2	PacBio	exon	201276827	201276968	.	+	.	gene_id "ENSG00000064012.21"; transcript_id "PB.11227.37"; gffcompare_gene_id "PB.11227"; exon_number "4"
+chr2	PacBio	exon	201284816	201285317	.	+	.	gene_id "ENSG00000064012.21"; transcript_id "PB.11227.37"; gffcompare_gene_id "PB.11227"; exon_number "5"
+chr2	PacBio	exon	201286459	201287705	.	+	.	gene_id "ENSG00000064012.21"; transcript_id "PB.11227.37"; gffcompare_gene_id "PB.11227"; exon_number "6"
+chr2	PacBio	transcript	201233487	201287706	.	+	.	gene_id "ENSG00000064012.21"; transcript_id "PB.11227.61"; gffcompare_gene_id "PB.11227"; gffcompare_gene_name "CASP8"; gffcompare_xloc "XLOC_006274"; gffcompare_cmp_ref "ENST00000264275.9"; gffcompare_class_code "j"; gffcompare_tss_id "TSS11067"; gffcompare_contained_in "NA"; matchAnnot_cmp_ref "CASP8-009"; matchAnnot_skipped_exon "NA"; matchAnnot_extra_exon "NA"; matchAnnot_gene "CASP8"; matchAnnot_score "3"; matchAnnot_ENST "ENST00000392263.6"; matchAnnot_ENSG "ENSG00000064012.21"; matchAnnot_length "1630"; matchAnnot_num_exons "9"; matchAnnot_exon_list "['[1]', '[2]', '[3]', '[4]', '[5]', '[6]', '[7]', '[8]', '[9]']"; matchAnnot_comments "kept first and last exon"; matchAnnot_exon_skipped_id "NA";
+chr2	PacBio	exon	201233487	201233554	.	+	.	gene_id "ENSG00000064012.21"; transcript_id "PB.11227.61"; gffcompare_gene_id "PB.11227"; exon_number "1"
+chr2	PacBio	exon	201234016	201234112	.	+	.	gene_id "ENSG00000064012.21"; transcript_id "PB.11227.61"; gffcompare_gene_id "PB.11227"; exon_number "2"
+chr2	PacBio	exon	201266461	201266791	.	+	.	gene_id "ENSG00000064012.21"; transcript_id "PB.11227.61"; gffcompare_gene_id "PB.11227"; exon_number "3"
+chr2	PacBio	exon	201271516	201271621	.	+	.	gene_id "ENSG00000064012.21"; transcript_id "PB.11227.61"; gffcompare_gene_id "PB.11227"; exon_number "4"
+chr2	PacBio	exon	201272638	201272942	.	+	.	gene_id "ENSG00000064012.21"; transcript_id "PB.11227.61"; gffcompare_gene_id "PB.11227"; exon_number "5"
+chr2	PacBio	exon	201274889	201274953	.	+	.	gene_id "ENSG00000064012.21"; transcript_id "PB.11227.61"; gffcompare_gene_id "PB.11227"; exon_number "6"
+chr2	PacBio	exon	201276827	201276968	.	+	.	gene_id "ENSG00000064012.21"; transcript_id "PB.11227.61"; gffcompare_gene_id "PB.11227"; exon_number "7"
+chr2	PacBio	exon	201284816	201285317	.	+	.	gene_id "ENSG00000064012.21"; transcript_id "PB.11227.61"; gffcompare_gene_id "PB.11227"; exon_number "8"
+chr2	PacBio	exon	201286459	201287706	.	+	.	gene_id "ENSG00000064012.21"; transcript_id "PB.11227.61"; gffcompare_gene_id "PB.11227"; exon_number "9"

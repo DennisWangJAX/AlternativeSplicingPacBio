@@ -1,0 +1,19 @@
+##gff-version 2
+##source-version rtracklayer 1.38.3
+##date 2018-02-24
+chr19	PacBio	transcript	12938611	12944486	.	+	.	gene_id "ENSG00000179218.13"; transcript_id "PB.9529.33"; gffcompare_gene_id "PB.9529"; gffcompare_gene_name "CALR"; gffcompare_xloc "XLOC_005315"; gffcompare_cmp_ref "ENST00000316448.9"; gffcompare_class_code "j"; gffcompare_tss_id "TSS9329"; gffcompare_contained_in "NA"; matchAnnot_cmp_ref "CALR-001"; matchAnnot_skipped_exon "8"; matchAnnot_extra_exon "NA"; matchAnnot_gene "CALR"; matchAnnot_score "2"; matchAnnot_ENST "ENST00000316448.9"; matchAnnot_ENSG "ENSG00000179218.13"; matchAnnot_length "1903"; matchAnnot_num_exons "9"; matchAnnot_exon_list "['[1]', '[2]', '[3]', '[4]', '[5]', '[6]', '[7]', '[9]']"; matchAnnot_comments "kept first and last exon and skipped exons"; matchAnnot_exon_skipped_id "JB-2283";
+chr19	PacBio	exon	12938611	12938770	.	+	.	gene_id "ENSG00000179218.13"; transcript_id "PB.9529.33"; gffcompare_gene_id "PB.9529"; exon_number "1"
+chr19	PacBio	exon	12939134	12939235	.	+	.	gene_id "ENSG00000179218.13"; transcript_id "PB.9529.33"; gffcompare_gene_id "PB.9529"; exon_number "2"
+chr19	PacBio	exon	12939428	12939631	.	+	.	gene_id "ENSG00000179218.13"; transcript_id "PB.9529.33"; gffcompare_gene_id "PB.9529"; exon_number "3"
+chr19	PacBio	exon	12940053	12940147	.	+	.	gene_id "ENSG00000179218.13"; transcript_id "PB.9529.33"; gffcompare_gene_id "PB.9529"; exon_number "4"
+chr19	PacBio	exon	12940243	12940452	.	+	.	gene_id "ENSG00000179218.13"; transcript_id "PB.9529.33"; gffcompare_gene_id "PB.9529"; exon_number "5"
+chr19	PacBio	exon	12940541	12940654	.	+	.	gene_id "ENSG00000179218.13"; transcript_id "PB.9529.33"; gffcompare_gene_id "PB.9529"; exon_number "6"
+chr19	PacBio	exon	12940744	12940866	.	+	.	gene_id "ENSG00000179218.13"; transcript_id "PB.9529.33"; gffcompare_gene_id "PB.9529"; exon_number "7"
+chr19	PacBio	exon	12943932	12944486	.	+	.	gene_id "ENSG00000179218.13"; transcript_id "PB.9529.33"; gffcompare_gene_id "PB.9529"; exon_number "8"
+chr19	PacBio	transcript	12939553	12943630	.	+	.	gene_id "ENSG00000179218.13"; transcript_id "PB.9529.21"; gffcompare_gene_id "PB.9529"; gffcompare_gene_name "CALR"; gffcompare_xloc "XLOC_005315"; gffcompare_cmp_ref "ENST00000316448.9"; gffcompare_class_code "c"; gffcompare_tss_id "TSS9331"; gffcompare_contained_in "NA"; matchAnnot_cmp_ref "CALR-001"; matchAnnot_skipped_exon "NA"; matchAnnot_extra_exon "NA"; matchAnnot_gene "CALR"; matchAnnot_score "2"; matchAnnot_ENST "ENST00000316448.9"; matchAnnot_ENSG "ENSG00000179218.13"; matchAnnot_length "1903"; matchAnnot_num_exons "9"; matchAnnot_exon_list "['[3]', '[4]', '[5]', '[6]', '[7]', '[8]']"; matchAnnot_comments "failed first and last exon"; matchAnnot_exon_skipped_id "NA";
+chr19	PacBio	exon	12939553	12939631	.	+	.	gene_id "ENSG00000179218.13"; transcript_id "PB.9529.21"; gffcompare_gene_id "PB.9529"; exon_number "1"
+chr19	PacBio	exon	12940053	12940147	.	+	.	gene_id "ENSG00000179218.13"; transcript_id "PB.9529.21"; gffcompare_gene_id "PB.9529"; exon_number "2"
+chr19	PacBio	exon	12940243	12940452	.	+	.	gene_id "ENSG00000179218.13"; transcript_id "PB.9529.21"; gffcompare_gene_id "PB.9529"; exon_number "3"
+chr19	PacBio	exon	12940541	12940654	.	+	.	gene_id "ENSG00000179218.13"; transcript_id "PB.9529.21"; gffcompare_gene_id "PB.9529"; exon_number "4"
+chr19	PacBio	exon	12940744	12940887	.	+	.	gene_id "ENSG00000179218.13"; transcript_id "PB.9529.21"; gffcompare_gene_id "PB.9529"; exon_number "5"
+chr19	PacBio	exon	12943537	12943630	.	+	.	gene_id "ENSG00000179218.13"; transcript_id "PB.9529.21"; gffcompare_gene_id "PB.9529"; exon_number "6"

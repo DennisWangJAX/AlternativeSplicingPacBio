@@ -1,0 +1,33 @@
+##gff-version 2
+##source-version rtracklayer 1.38.3
+##date 2018-02-24
+chr12	PacBio	transcript	8123646	8138605	.	+	.	gene_id "ENSG00000111729.12"; transcript_id "PB.4064.8"; gffcompare_gene_id "PB.4064"; gffcompare_gene_name "CLEC4A"; gffcompare_xloc "XLOC_002372"; gffcompare_cmp_ref "ENST00000229332.9"; gffcompare_class_code "="; gffcompare_tss_id "TSS4090"; gffcompare_contained_in "NA"; matchAnnot_cmp_ref "CLEC4A-001"; matchAnnot_skipped_exon "NA"; matchAnnot_extra_exon "NA"; matchAnnot_gene "CLEC4A"; matchAnnot_score "5"; matchAnnot_ENST "ENST00000229332.9"; matchAnnot_ENSG "ENSG00000111729.12"; matchAnnot_length "1281"; matchAnnot_num_exons "6"; matchAnnot_exon_list "['[1]', '[2]', '[3]', '[4]', '[5]', '[6]']"; matchAnnot_comments "kept first and last exon"; matchAnnot_exon_skipped_id "NA";
+chr12	PacBio	exon	8123646	8123960	.	+	.	gene_id "ENSG00000111729.12"; transcript_id "PB.4064.8"; gffcompare_gene_id "PB.4064"; exon_number "1"
+chr12	PacBio	exon	8125561	8125677	.	+	.	gene_id "ENSG00000111729.12"; transcript_id "PB.4064.8"; gffcompare_gene_id "PB.4064"; exon_number "2"
+chr12	PacBio	exon	8129264	8129362	.	+	.	gene_id "ENSG00000111729.12"; transcript_id "PB.4064.8"; gffcompare_gene_id "PB.4064"; exon_number "3"
+chr12	PacBio	exon	8135585	8135736	.	+	.	gene_id "ENSG00000111729.12"; transcript_id "PB.4064.8"; gffcompare_gene_id "PB.4064"; exon_number "4"
+chr12	PacBio	exon	8136788	8136903	.	+	.	gene_id "ENSG00000111729.12"; transcript_id "PB.4064.8"; gffcompare_gene_id "PB.4064"; exon_number "5"
+chr12	PacBio	exon	8138140	8138605	.	+	.	gene_id "ENSG00000111729.12"; transcript_id "PB.4064.8"; gffcompare_gene_id "PB.4064"; exon_number "6"
+chr12	PacBio	transcript	8123852	8138603	.	+	.	gene_id "ENSG00000111729.12"; transcript_id "PB.4064.6"; gffcompare_gene_id "PB.4064"; gffcompare_gene_name "CLEC4A"; gffcompare_xloc "XLOC_002372"; gffcompare_cmp_ref "ENST00000229332.9"; gffcompare_class_code "j"; gffcompare_tss_id "TSS4091"; gffcompare_contained_in "NA"; matchAnnot_cmp_ref "CLEC4A-001"; matchAnnot_skipped_exon "NA"; matchAnnot_extra_exon "NA"; matchAnnot_gene "CLEC4A"; matchAnnot_score "3"; matchAnnot_ENST "ENST00000229332.9"; matchAnnot_ENSG "ENSG00000111729.12"; matchAnnot_length "1281"; matchAnnot_num_exons "6"; matchAnnot_exon_list "['[1]', '[2]', '[3]', '[4]', '[5]', '[6]']"; matchAnnot_comments "kept first and last exon"; matchAnnot_exon_skipped_id "NA";
+chr12	PacBio	exon	8123852	8123960	.	+	.	gene_id "ENSG00000111729.12"; transcript_id "PB.4064.6"; gffcompare_gene_id "PB.4064"; exon_number "1"
+chr12	PacBio	exon	8125561	8125677	.	+	.	gene_id "ENSG00000111729.12"; transcript_id "PB.4064.6"; gffcompare_gene_id "PB.4064"; exon_number "2"
+chr12	PacBio	exon	8129264	8129362	.	+	.	gene_id "ENSG00000111729.12"; transcript_id "PB.4064.6"; gffcompare_gene_id "PB.4064"; exon_number "3"
+chr12	PacBio	exon	8135585	8135736	.	+	.	gene_id "ENSG00000111729.12"; transcript_id "PB.4064.6"; gffcompare_gene_id "PB.4064"; exon_number "4"
+chr12	PacBio	exon	8136788	8136903	.	+	.	gene_id "ENSG00000111729.12"; transcript_id "PB.4064.6"; gffcompare_gene_id "PB.4064"; exon_number "5"
+chr12	PacBio	exon	8137304	8138603	.	+	.	gene_id "ENSG00000111729.12"; transcript_id "PB.4064.6"; gffcompare_gene_id "PB.4064"; exon_number "6"
+chr12	PacBio	transcript	8123873	8142215	.	+	.	gene_id "ENSG00000111729.12"; transcript_id "PB.4064.2"; gffcompare_gene_id "PB.4064"; gffcompare_gene_name "CLEC4A"; gffcompare_xloc "XLOC_002372"; gffcompare_cmp_ref "ENST00000229332.9"; gffcompare_class_code "j"; gffcompare_tss_id "TSS4091"; gffcompare_contained_in "NA"; matchAnnot_cmp_ref "CLEC4A-001"; matchAnnot_skipped_exon "NA"; matchAnnot_extra_exon "4,8"; matchAnnot_gene "CLEC4A"; matchAnnot_score "2"; matchAnnot_ENST "ENST00000229332.9"; matchAnnot_ENSG "ENSG00000111729.12"; matchAnnot_length "1281"; matchAnnot_num_exons "6"; matchAnnot_exon_list "['[1]', '[2]', '[3]', '[]', '[4]', '[5]', '[6]', '[]']"; matchAnnot_comments "kept first and last exon"; matchAnnot_exon_skipped_id "NA";
+chr12	PacBio	exon	8123873	8123960	.	+	.	gene_id "ENSG00000111729.12"; transcript_id "PB.4064.2"; gffcompare_gene_id "PB.4064"; exon_number "1"
+chr12	PacBio	exon	8125561	8125677	.	+	.	gene_id "ENSG00000111729.12"; transcript_id "PB.4064.2"; gffcompare_gene_id "PB.4064"; exon_number "2"
+chr12	PacBio	exon	8129264	8129362	.	+	.	gene_id "ENSG00000111729.12"; transcript_id "PB.4064.2"; gffcompare_gene_id "PB.4064"; exon_number "3"
+chr12	PacBio	exon	8135077	8135165	.	+	.	gene_id "ENSG00000111729.12"; transcript_id "PB.4064.2"; gffcompare_gene_id "PB.4064"; exon_number "4"
+chr12	PacBio	exon	8135585	8135736	.	+	.	gene_id "ENSG00000111729.12"; transcript_id "PB.4064.2"; gffcompare_gene_id "PB.4064"; exon_number "5"
+chr12	PacBio	exon	8136788	8136903	.	+	.	gene_id "ENSG00000111729.12"; transcript_id "PB.4064.2"; gffcompare_gene_id "PB.4064"; exon_number "6"
+chr12	PacBio	exon	8138140	8138309	.	+	.	gene_id "ENSG00000111729.12"; transcript_id "PB.4064.2"; gffcompare_gene_id "PB.4064"; exon_number "7"
+chr12	PacBio	exon	8139472	8142215	.	+	.	gene_id "ENSG00000111729.12"; transcript_id "PB.4064.2"; gffcompare_gene_id "PB.4064"; exon_number "8"
+chr12	PacBio	transcript	8123909	8138592	.	+	.	gene_id "ENSG00000111729.12"; transcript_id "PB.4064.7"; gffcompare_gene_id "PB.4064"; gffcompare_gene_name "CLEC4A"; gffcompare_xloc "XLOC_002372"; gffcompare_cmp_ref "ENST00000229332.9"; gffcompare_class_code "j"; gffcompare_tss_id "TSS4091"; gffcompare_contained_in "NA"; matchAnnot_cmp_ref "CLEC4A-001"; matchAnnot_skipped_exon "NA"; matchAnnot_extra_exon "NA"; matchAnnot_gene "CLEC4A"; matchAnnot_score "3"; matchAnnot_ENST "ENST00000229332.9"; matchAnnot_ENSG "ENSG00000111729.12"; matchAnnot_length "1281"; matchAnnot_num_exons "6"; matchAnnot_exon_list "['[1]', '[2]', '[3]', '[4]', '[5]', '[6]']"; matchAnnot_comments "kept first and last exon"; matchAnnot_exon_skipped_id "NA";
+chr12	PacBio	exon	8123909	8124201	.	+	.	gene_id "ENSG00000111729.12"; transcript_id "PB.4064.7"; gffcompare_gene_id "PB.4064"; exon_number "1"
+chr12	PacBio	exon	8125561	8125677	.	+	.	gene_id "ENSG00000111729.12"; transcript_id "PB.4064.7"; gffcompare_gene_id "PB.4064"; exon_number "2"
+chr12	PacBio	exon	8129264	8129362	.	+	.	gene_id "ENSG00000111729.12"; transcript_id "PB.4064.7"; gffcompare_gene_id "PB.4064"; exon_number "3"
+chr12	PacBio	exon	8135585	8135736	.	+	.	gene_id "ENSG00000111729.12"; transcript_id "PB.4064.7"; gffcompare_gene_id "PB.4064"; exon_number "4"
+chr12	PacBio	exon	8136788	8136903	.	+	.	gene_id "ENSG00000111729.12"; transcript_id "PB.4064.7"; gffcompare_gene_id "PB.4064"; exon_number "5"
+chr12	PacBio	exon	8138140	8138592	.	+	.	gene_id "ENSG00000111729.12"; transcript_id "PB.4064.7"; gffcompare_gene_id "PB.4064"; exon_number "6"
