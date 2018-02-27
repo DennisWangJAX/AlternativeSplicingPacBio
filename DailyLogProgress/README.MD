@@ -19,4 +19,7 @@ All for updates in intron_filter_by_GRanges function
 3. Change in the output, for everything that contains !test when test == NULL
 
 2/26:
-Added the outputs (csv) for the binary forms of isoforms. Each is characterized by a leading sign. "P" for prefiltered, "F" for filtered, "R" for remain.
+1. Added the outputs (csv) for the binary forms of isoforms. Each is characterized by a leading sign. "P" for prefiltered, "F" for filtered, "R" for remain.
+
+2/27:
+1. Added variable (repetition_test) in intron_filter_by_gff to save running time if the files already exist.
