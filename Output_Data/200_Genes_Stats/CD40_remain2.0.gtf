@@ -1,6 +1,6 @@
 ##gff-version 2
 ##source-version rtracklayer 1.38.3
-##date 2018-02-24
+##date 2018-02-26
 chr20	PacBio	transcript	46118241	46129853	.	+	.	gene_id "ENSG00000101017.13"; transcript_id "PB.12320.1"; gffcompare_gene_id "PB.12320"; gffcompare_gene_name "CD40"; gffcompare_xloc "XLOC_006847"; gffcompare_cmp_ref "ENST00000372285.7"; gffcompare_class_code "="; gffcompare_tss_id "TSS12055"; gffcompare_contained_in "NA"; matchAnnot_cmp_ref "CD40-001"; matchAnnot_skipped_exon "NA"; matchAnnot_extra_exon "NA"; matchAnnot_gene "CD40"; matchAnnot_score "5"; matchAnnot_ENST "ENST00000372285.7"; matchAnnot_ENSG "ENSG00000101017.13"; matchAnnot_length "1729"; matchAnnot_num_exons "9"; matchAnnot_exon_list "['[1]', '[2]', '[3]', '[4]', '[5]', '[6]', '[7]', '[8]', '[9]']"; matchAnnot_comments "kept first and last exon"; matchAnnot_exon_skipped_id "NA";
 chr20	PacBio	exon	46118241	46118394	.	+	.	gene_id "ENSG00000101017.13"; transcript_id "PB.12320.1"; gffcompare_gene_id "PB.12320"; exon_number "1"
 chr20	PacBio	exon	46121820	46121898	.	+	.	gene_id "ENSG00000101017.13"; transcript_id "PB.12320.1"; gffcompare_gene_id "PB.12320"; exon_number "2"

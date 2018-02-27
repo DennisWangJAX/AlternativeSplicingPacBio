@@ -1,0 +1,14 @@
+##gff-version 2
+##source-version rtracklayer 1.38.3
+##date 2018-02-26
+chr3	PacBio	transcript	108043301	108091047	.	-	.	gene_id "ENSG00000196776.14"; transcript_id "PB.14300.14"; gffcompare_gene_id "PB.14300"; gffcompare_gene_name "CD47"; gffcompare_xloc "XLOC_007929"; gffcompare_cmp_ref "ENST00000361309.5"; gffcompare_class_code "j"; gffcompare_tss_id "TSS13981"; gffcompare_contained_in "NA"; matchAnnot_cmp_ref "CD47-004"; matchAnnot_skipped_exon "2,3"; matchAnnot_extra_exon "1"; matchAnnot_gene "CD47"; matchAnnot_score "2"; matchAnnot_ENST "ENST00000361309.5"; matchAnnot_ENSG "ENSG00000196776.14"; matchAnnot_length "1285"; matchAnnot_num_exons "11"; matchAnnot_exon_list "['[]', '[1]', '[4]', '[5]', '[6]', '[7]', '[8]', '[9]', '[10]', '[11]']"; matchAnnot_comments "kept first and last exon and skipped exons"; matchAnnot_exon_skipped_id "JB-3738";
+chr3	PacBio	exon	108043301	108043841	.	-	.	gene_id "ENSG00000196776.14"; transcript_id "PB.14300.14"; gffcompare_gene_id "PB.14300"; exon_number "1"
+chr3	PacBio	exon	108046809	108047292	.	-	.	gene_id "ENSG00000196776.14"; transcript_id "PB.14300.14"; gffcompare_gene_id "PB.14300"; exon_number "2"
+chr3	PacBio	exon	108051939	108051970	.	-	.	gene_id "ENSG00000196776.14"; transcript_id "PB.14300.14"; gffcompare_gene_id "PB.14300"; exon_number "3"
+chr3	PacBio	exon	108057477	108057569	.	-	.	gene_id "ENSG00000196776.14"; transcript_id "PB.14300.14"; gffcompare_gene_id "PB.14300"; exon_number "4"
+chr3	PacBio	exon	108058337	108058429	.	-	.	gene_id "ENSG00000196776.14"; transcript_id "PB.14300.14"; gffcompare_gene_id "PB.14300"; exon_number "5"
+chr3	PacBio	exon	108059452	108059544	.	-	.	gene_id "ENSG00000196776.14"; transcript_id "PB.14300.14"; gffcompare_gene_id "PB.14300"; exon_number "6"
+chr3	PacBio	exon	108060745	108060852	.	-	.	gene_id "ENSG00000196776.14"; transcript_id "PB.14300.14"; gffcompare_gene_id "PB.14300"; exon_number "7"
+chr3	PacBio	exon	108071093	108071182	.	-	.	gene_id "ENSG00000196776.14"; transcript_id "PB.14300.14"; gffcompare_gene_id "PB.14300"; exon_number "8"
+chr3	PacBio	exon	108079991	108080344	.	-	.	gene_id "ENSG00000196776.14"; transcript_id "PB.14300.14"; gffcompare_gene_id "PB.14300"; exon_number "9"
+chr3	PacBio	exon	108090863	108091047	.	-	.	gene_id "ENSG00000196776.14"; transcript_id "PB.14300.14"; gffcompare_gene_id "PB.14300"; exon_number "10"

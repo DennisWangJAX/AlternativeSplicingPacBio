@@ -1,0 +1,14 @@
+##gff-version 2
+##source-version rtracklayer 1.38.3
+##date 2018-02-24
+chrX	PacBio	transcript	47624216	47629855	.	-	.	gene_id "ENSG00000126759.12"; transcript_id "PB.20589.5"; gffcompare_gene_id "PB.20589"; gffcompare_gene_name "CFP"; gffcompare_xloc "XLOC_011237"; gffcompare_cmp_ref "ENST00000247153.7"; gffcompare_class_code "j"; gffcompare_tss_id "TSS19608"; gffcompare_contained_in "NA"; matchAnnot_cmp_ref "CFP-004"; matchAnnot_skipped_exon "NA"; matchAnnot_extra_exon "4,5,6,7,8,9,10"; matchAnnot_gene "CFP"; matchAnnot_score "2"; matchAnnot_ENST "ENST00000478222.1"; matchAnnot_ENSG "ENSG00000126759.12"; matchAnnot_length "593"; matchAnnot_num_exons "3"; matchAnnot_exon_list "['[1]', '[2]', '[3]', '[]', '[]', '[]', '[]', '[]', '[]', '[]']"; matchAnnot_comments "kept first and last exon"; matchAnnot_exon_skipped_id "NA";
+chrX	PacBio	exon	47624216	47624440	.	-	.	gene_id "ENSG00000126759.12"; transcript_id "PB.20589.5"; gffcompare_gene_id "PB.20589"; exon_number "1"
+chrX	PacBio	exon	47626058	47626169	.	-	.	gene_id "ENSG00000126759.12"; transcript_id "PB.20589.5"; gffcompare_gene_id "PB.20589"; exon_number "2"
+chrX	PacBio	exon	47626328	47626519	.	-	.	gene_id "ENSG00000126759.12"; transcript_id "PB.20589.5"; gffcompare_gene_id "PB.20589"; exon_number "3"
+chrX	PacBio	exon	47626773	47626839	.	-	.	gene_id "ENSG00000126759.12"; transcript_id "PB.20589.5"; gffcompare_gene_id "PB.20589"; exon_number "4"
+chrX	PacBio	exon	47626935	47626946	.	-	.	gene_id "ENSG00000126759.12"; transcript_id "PB.20589.5"; gffcompare_gene_id "PB.20589"; exon_number "5"
+chrX	PacBio	exon	47627141	47627332	.	-	.	gene_id "ENSG00000126759.12"; transcript_id "PB.20589.5"; gffcompare_gene_id "PB.20589"; exon_number "6"
+chrX	PacBio	exon	47627471	47627641	.	-	.	gene_id "ENSG00000126759.12"; transcript_id "PB.20589.5"; gffcompare_gene_id "PB.20589"; exon_number "7"
+chrX	PacBio	exon	47628102	47628277	.	-	.	gene_id "ENSG00000126759.12"; transcript_id "PB.20589.5"; gffcompare_gene_id "PB.20589"; exon_number "8"
+chrX	PacBio	exon	47629524	47629674	.	-	.	gene_id "ENSG00000126759.12"; transcript_id "PB.20589.5"; gffcompare_gene_id "PB.20589"; exon_number "9"
+chrX	PacBio	exon	47629769	47629855	.	-	.	gene_id "ENSG00000126759.12"; transcript_id "PB.20589.5"; gffcompare_gene_id "PB.20589"; exon_number "10"

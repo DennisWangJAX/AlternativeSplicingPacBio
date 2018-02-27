@@ -1,6 +1,6 @@
 ##gff-version 2
 ##source-version rtracklayer 1.38.3
-##date 2018-02-24
+##date 2018-02-26
 chr19	PacBio	transcript	46601239	46610779	.	+	.	gene_id "ENSG00000160014.16"; transcript_id "PB.9839.61"; gffcompare_gene_id "PB.9839"; gffcompare_gene_name "CALM3"; gffcompare_xloc "XLOC_005504"; gffcompare_cmp_ref "ENST00000599839.5"; gffcompare_class_code "j"; gffcompare_tss_id "TSS9709"; gffcompare_contained_in "NA"; matchAnnot_cmp_ref "CALM3-014"; matchAnnot_skipped_exon "NA"; matchAnnot_extra_exon "NA"; matchAnnot_gene "CALM3"; matchAnnot_score "3"; matchAnnot_ENST "ENST00000598871.5"; matchAnnot_ENSG "ENSG00000160014.16"; matchAnnot_length "561"; matchAnnot_num_exons "5"; matchAnnot_exon_list "['[1]', '[2]', '[3]', '[4]', '[5]']"; matchAnnot_comments "kept first and last exon"; matchAnnot_exon_skipped_id "NA";
 chr19	PacBio	exon	46601239	46601437	.	+	.	gene_id "ENSG00000160014.16"; transcript_id "PB.9839.61"; gffcompare_gene_id "PB.9839"; exon_number "1"
 chr19	PacBio	exon	46605827	46608340	.	+	.	gene_id "ENSG00000160014.16"; transcript_id "PB.9839.61"; gffcompare_gene_id "PB.9839"; exon_number "2"

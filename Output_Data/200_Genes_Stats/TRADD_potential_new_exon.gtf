@@ -1,0 +1,10 @@
+##gff-version 2
+##source-version rtracklayer 1.38.3
+##date 2018-02-26
+chr16	PacBio	transcript	67154190	67159887	.	-	.	gene_id "ENSG00000102871.15"; transcript_id "PB.7657.9"; gffcompare_gene_id "PB.7657"; gffcompare_gene_name "TRADD"; gffcompare_xloc "XLOC_004292"; gffcompare_cmp_ref "ENST00000345057.8"; gffcompare_class_code "j"; gffcompare_tss_id "TSS7582"; gffcompare_contained_in "NA"; matchAnnot_cmp_ref "TRADD-005"; matchAnnot_skipped_exon "NA"; matchAnnot_extra_exon "1,2,3,6"; matchAnnot_gene "TRADD"; matchAnnot_score "2"; matchAnnot_ENST "ENST00000563348.1"; matchAnnot_ENSG "ENSG00000102871.15"; matchAnnot_length "833"; matchAnnot_num_exons "2"; matchAnnot_exon_list "['[]', '[]', '[]', '[1]', '[2]', '[]']"; matchAnnot_comments "kept first and last exon"; matchAnnot_exon_skipped_id "NA";
+chr16	PacBio	exon	67154190	67154959	.	-	.	gene_id "ENSG00000102871.15"; transcript_id "PB.7657.9"; gffcompare_gene_id "PB.7657"; exon_number "1"
+chr16	PacBio	exon	67155096	67155294	.	-	.	gene_id "ENSG00000102871.15"; transcript_id "PB.7657.9"; gffcompare_gene_id "PB.7657"; exon_number "2"
+chr16	PacBio	exon	67155377	67155437	.	-	.	gene_id "ENSG00000102871.15"; transcript_id "PB.7657.9"; gffcompare_gene_id "PB.7657"; exon_number "3"
+chr16	PacBio	exon	67155535	67155654	.	-	.	gene_id "ENSG00000102871.15"; transcript_id "PB.7657.9"; gffcompare_gene_id "PB.7657"; exon_number "4"
+chr16	PacBio	exon	67156510	67156668	.	-	.	gene_id "ENSG00000102871.15"; transcript_id "PB.7657.9"; gffcompare_gene_id "PB.7657"; exon_number "5"
+chr16	PacBio	exon	67159838	67159887	.	-	.	gene_id "ENSG00000102871.15"; transcript_id "PB.7657.9"; gffcompare_gene_id "PB.7657"; exon_number "6"

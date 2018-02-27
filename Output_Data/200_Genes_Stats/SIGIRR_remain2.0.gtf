@@ -1,0 +1,25 @@
+##gff-version 2
+##source-version rtracklayer 1.38.3
+##date 2018-02-26
+chr11	PacBio	transcript	405717	417402	.	-	.	gene_id "ENSG00000185187.12"; transcript_id "PB.3502.54"; gffcompare_gene_id "PB.3502"; gffcompare_gene_name "SIGIRR"; gffcompare_xloc "XLOC_002025"; gffcompare_cmp_ref "ENST00000431843.6"; gffcompare_class_code "j"; gffcompare_tss_id "TSS3508"; gffcompare_contained_in "NA"; matchAnnot_cmp_ref "SIGIRR-018"; matchAnnot_skipped_exon "NA"; matchAnnot_extra_exon "1,2,3,4,8,11"; matchAnnot_gene "SIGIRR"; matchAnnot_score "2"; matchAnnot_ENST "ENST00000528698.5"; matchAnnot_ENSG "ENSG00000185187.12"; matchAnnot_length "733"; matchAnnot_num_exons "5"; matchAnnot_exon_list "['[]', '[]', '[]', '[]', '[1]', '[2]', '[3]', '[]', '[4]', '[5]', '[]']"; matchAnnot_comments "kept first and last exon"; matchAnnot_exon_skipped_id "NA";
+chr11	PacBio	exon	405717	406059	.	-	.	gene_id "ENSG00000185187.12"; transcript_id "PB.3502.54"; gffcompare_gene_id "PB.3502"; exon_number "1"
+chr11	PacBio	exon	406349	406538	.	-	.	gene_id "ENSG00000185187.12"; transcript_id "PB.3502.54"; gffcompare_gene_id "PB.3502"; exon_number "2"
+chr11	PacBio	exon	406843	406878	.	-	.	gene_id "ENSG00000185187.12"; transcript_id "PB.3502.54"; gffcompare_gene_id "PB.3502"; exon_number "3"
+chr11	PacBio	exon	406964	406993	.	-	.	gene_id "ENSG00000185187.12"; transcript_id "PB.3502.54"; gffcompare_gene_id "PB.3502"; exon_number "4"
+chr11	PacBio	exon	407062	407164	.	-	.	gene_id "ENSG00000185187.12"; transcript_id "PB.3502.54"; gffcompare_gene_id "PB.3502"; exon_number "5"
+chr11	PacBio	exon	407425	407568	.	-	.	gene_id "ENSG00000185187.12"; transcript_id "PB.3502.54"; gffcompare_gene_id "PB.3502"; exon_number "6"
+chr11	PacBio	exon	407817	407957	.	-	.	gene_id "ENSG00000185187.12"; transcript_id "PB.3502.54"; gffcompare_gene_id "PB.3502"; exon_number "7"
+chr11	PacBio	exon	408073	408206	.	-	.	gene_id "ENSG00000185187.12"; transcript_id "PB.3502.54"; gffcompare_gene_id "PB.3502"; exon_number "8"
+chr11	PacBio	exon	408695	408893	.	-	.	gene_id "ENSG00000185187.12"; transcript_id "PB.3502.54"; gffcompare_gene_id "PB.3502"; exon_number "9"
+chr11	PacBio	exon	409868	410027	.	-	.	gene_id "ENSG00000185187.12"; transcript_id "PB.3502.54"; gffcompare_gene_id "PB.3502"; exon_number "10"
+chr11	PacBio	exon	417325	417402	.	-	.	gene_id "ENSG00000185187.12"; transcript_id "PB.3502.54"; gffcompare_gene_id "PB.3502"; exon_number "11"
+chr11	PacBio	transcript	405718	417419	.	-	.	gene_id "ENSG00000185187.12"; transcript_id "PB.3502.28"; gffcompare_gene_id "PB.3502"; gffcompare_gene_name "SIGIRR"; gffcompare_xloc "XLOC_002025"; gffcompare_cmp_ref "ENST00000431843.6"; gffcompare_class_code "j"; gffcompare_tss_id "TSS3512"; gffcompare_contained_in "NA"; matchAnnot_cmp_ref "SIGIRR-006"; matchAnnot_skipped_exon "3"; matchAnnot_extra_exon "NA"; matchAnnot_gene "SIGIRR"; matchAnnot_score "2"; matchAnnot_ENST "ENST00000397632.7"; matchAnnot_ENSG "ENSG00000185187.12"; matchAnnot_length "1598"; matchAnnot_num_exons "10"; matchAnnot_exon_list "['[1]', '[2]', '[4]', '[5]', '[6]', '[7]', '[8]', '[9]', '[10]']"; matchAnnot_comments "kept first and last exon and skipped exons"; matchAnnot_exon_skipped_id "JB-1115";
+chr11	PacBio	exon	405718	406059	.	-	.	gene_id "ENSG00000185187.12"; transcript_id "PB.3502.28"; gffcompare_gene_id "PB.3502"; exon_number "1"
+chr11	PacBio	exon	406349	406538	.	-	.	gene_id "ENSG00000185187.12"; transcript_id "PB.3502.28"; gffcompare_gene_id "PB.3502"; exon_number "2"
+chr11	PacBio	exon	407062	407164	.	-	.	gene_id "ENSG00000185187.12"; transcript_id "PB.3502.28"; gffcompare_gene_id "PB.3502"; exon_number "3"
+chr11	PacBio	exon	407425	407568	.	-	.	gene_id "ENSG00000185187.12"; transcript_id "PB.3502.28"; gffcompare_gene_id "PB.3502"; exon_number "4"
+chr11	PacBio	exon	407817	407957	.	-	.	gene_id "ENSG00000185187.12"; transcript_id "PB.3502.28"; gffcompare_gene_id "PB.3502"; exon_number "5"
+chr11	PacBio	exon	408073	408206	.	-	.	gene_id "ENSG00000185187.12"; transcript_id "PB.3502.28"; gffcompare_gene_id "PB.3502"; exon_number "6"
+chr11	PacBio	exon	408695	408893	.	-	.	gene_id "ENSG00000185187.12"; transcript_id "PB.3502.28"; gffcompare_gene_id "PB.3502"; exon_number "7"
+chr11	PacBio	exon	409868	410027	.	-	.	gene_id "ENSG00000185187.12"; transcript_id "PB.3502.28"; gffcompare_gene_id "PB.3502"; exon_number "8"
+chr11	PacBio	exon	417294	417419	.	-	.	gene_id "ENSG00000185187.12"; transcript_id "PB.3502.28"; gffcompare_gene_id "PB.3502"; exon_number "9"

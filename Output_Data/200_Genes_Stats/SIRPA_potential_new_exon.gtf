@@ -1,0 +1,10 @@
+##gff-version 2
+##source-version rtracklayer 1.38.3
+##date 2018-02-26
+chr20	PacBio	transcript	1894937	1938459	.	+	.	gene_id "ENSG00000198053.11"; transcript_id "PB.12148.11"; gffcompare_gene_id "PB.12148"; gffcompare_gene_name "SIRPA"; gffcompare_xloc "XLOC_006748"; gffcompare_cmp_ref "ENST00000622179.4"; gffcompare_class_code "j"; gffcompare_tss_id "TSS11906"; gffcompare_contained_in "NA"; matchAnnot_cmp_ref "SIRPA-201"; matchAnnot_skipped_exon "4,5,6,7"; matchAnnot_extra_exon "1"; matchAnnot_gene "SIRPA"; matchAnnot_score "0"; matchAnnot_ENST "ENST00000400068.7"; matchAnnot_ENSG "ENSG00000198053.11"; matchAnnot_length "4201"; matchAnnot_num_exons "9"; matchAnnot_exon_list "['[]', '[2]', '[3]', '[8]', '[9]', '[9]']"; matchAnnot_comments "failed first and last exon"; matchAnnot_exon_skipped_id "NA";
+chr20	PacBio	exon	1894937	1894966	.	+	.	gene_id "ENSG00000198053.11"; transcript_id "PB.12148.11"; gffcompare_gene_id "PB.12148"; exon_number "1"
+chr20	PacBio	exon	1895439	1895526	.	+	.	gene_id "ENSG00000198053.11"; transcript_id "PB.12148.11"; gffcompare_gene_id "PB.12148"; exon_number "2"
+chr20	PacBio	exon	1915099	1915455	.	+	.	gene_id "ENSG00000198053.11"; transcript_id "PB.12148.11"; gffcompare_gene_id "PB.12148"; exon_number "3"
+chr20	PacBio	exon	1934715	1934754	.	+	.	gene_id "ENSG00000198053.11"; transcript_id "PB.12148.11"; gffcompare_gene_id "PB.12148"; exon_number "4"
+chr20	PacBio	exon	1937320	1937388	.	+	.	gene_id "ENSG00000198053.11"; transcript_id "PB.12148.11"; gffcompare_gene_id "PB.12148"; exon_number "5"
+chr20	PacBio	exon	1937521	1938459	.	+	.	gene_id "ENSG00000198053.11"; transcript_id "PB.12148.11"; gffcompare_gene_id "PB.12148"; exon_number "6"

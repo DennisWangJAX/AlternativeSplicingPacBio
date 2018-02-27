@@ -1,0 +1,7 @@
+##gff-version 2
+##source-version rtracklayer 1.38.3
+##date 2018-02-26
+chr13	PacBio	transcript	30463292	30465952	.	-	.	gene_id "ENSG00000189403.14"; transcript_id "PB.5339.30"; gffcompare_gene_id "PB.5339"; gffcompare_gene_name "HMGB1"; gffcompare_xloc "XLOC_003057"; gffcompare_cmp_ref "ENST00000341423.9"; gffcompare_class_code "c"; gffcompare_tss_id "TSS5299"; gffcompare_contained_in "PB.5339.20"; matchAnnot_cmp_ref "HMGB1-004"; matchAnnot_skipped_exon "NA"; matchAnnot_extra_exon "NA"; matchAnnot_gene "HMGB1"; matchAnnot_score "2"; matchAnnot_ENST "ENST00000341423.9"; matchAnnot_ENSG "ENSG00000189403.14"; matchAnnot_length "5485"; matchAnnot_num_exons "5"; matchAnnot_exon_list "['[3]', '[4]', '[5]']"; matchAnnot_comments "failed first and last exon"; matchAnnot_exon_skipped_id "NA";
+chr13	PacBio	exon	30463292	30463352	.	-	.	gene_id "ENSG00000189403.14"; transcript_id "PB.5339.30"; gffcompare_gene_id "PB.5339"; exon_number "1"
+chr13	PacBio	exon	30463531	30463694	.	-	.	gene_id "ENSG00000189403.14"; transcript_id "PB.5339.30"; gffcompare_gene_id "PB.5339"; exon_number "2"
+chr13	PacBio	exon	30465796	30465952	.	-	.	gene_id "ENSG00000189403.14"; transcript_id "PB.5339.30"; gffcompare_gene_id "PB.5339"; exon_number "3"

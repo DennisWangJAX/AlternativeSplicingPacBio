@@ -1,0 +1,15 @@
+##gff-version 2
+##source-version rtracklayer 1.38.3
+##date 2018-02-24
+chr9	PacBio	transcript	5073702	5127994	.	+	.	gene_id "ENSG00000096968.13"; transcript_id "PB.19340.18"; gffcompare_gene_id "PB.19340"; gffcompare_gene_name "JAK2"; gffcompare_xloc "XLOC_010574"; gffcompare_cmp_ref "ENST00000381652.3"; gffcompare_class_code "j"; gffcompare_tss_id "TSS18534"; gffcompare_contained_in "NA"; matchAnnot_cmp_ref "JAK2-005"; matchAnnot_skipped_exon "NA"; matchAnnot_extra_exon "4,5,6,7,8,9,10,11"; matchAnnot_gene "JAK2"; matchAnnot_score "2"; matchAnnot_ENST "ENST00000636127.1"; matchAnnot_ENSG "ENSG00000096968.13"; matchAnnot_length "2615"; matchAnnot_num_exons "16"; matchAnnot_exon_list "['[14]', '[15]', '[16]', '[]', '[]', '[]', '[]', '[]', '[]', '[]', '[]']"; matchAnnot_comments "failed first and last exon"; matchAnnot_exon_skipped_id "NA";
+chr9	PacBio	exon	5073702	5073785	.	+	.	gene_id "ENSG00000096968.13"; transcript_id "PB.19340.18"; gffcompare_gene_id "PB.19340"; exon_number "1"
+chr9	PacBio	exon	5077453	5077580	.	+	.	gene_id "ENSG00000096968.13"; transcript_id "PB.19340.18"; gffcompare_gene_id "PB.19340"; exon_number "2"
+chr9	PacBio	exon	5078306	5080380	.	+	.	gene_id "ENSG00000096968.13"; transcript_id "PB.19340.18"; gffcompare_gene_id "PB.19340"; exon_number "3"
+chr9	PacBio	exon	5080533	5080683	.	+	.	gene_id "ENSG00000096968.13"; transcript_id "PB.19340.18"; gffcompare_gene_id "PB.19340"; exon_number "4"
+chr9	PacBio	exon	5081725	5081861	.	+	.	gene_id "ENSG00000096968.13"; transcript_id "PB.19340.18"; gffcompare_gene_id "PB.19340"; exon_number "5"
+chr9	PacBio	exon	5089674	5089863	.	+	.	gene_id "ENSG00000096968.13"; transcript_id "PB.19340.18"; gffcompare_gene_id "PB.19340"; exon_number "6"
+chr9	PacBio	exon	5090446	5090570	.	+	.	gene_id "ENSG00000096968.13"; transcript_id "PB.19340.18"; gffcompare_gene_id "PB.19340"; exon_number "7"
+chr9	PacBio	exon	5090739	5090911	.	+	.	gene_id "ENSG00000096968.13"; transcript_id "PB.19340.18"; gffcompare_gene_id "PB.19340"; exon_number "8"
+chr9	PacBio	exon	5123004	5123121	.	+	.	gene_id "ENSG00000096968.13"; transcript_id "PB.19340.18"; gffcompare_gene_id "PB.19340"; exon_number "9"
+chr9	PacBio	exon	5126333	5126446	.	+	.	gene_id "ENSG00000096968.13"; transcript_id "PB.19340.18"; gffcompare_gene_id "PB.19340"; exon_number "10"
+chr9	PacBio	exon	5126684	5127994	.	+	.	gene_id "ENSG00000096968.13"; transcript_id "PB.19340.18"; gffcompare_gene_id "PB.19340"; exon_number "11"

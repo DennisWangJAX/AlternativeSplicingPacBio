@@ -1,0 +1,37 @@
+##gff-version 2
+##source-version rtracklayer 1.38.3
+##date 2018-02-21
+chr1	PacBio	transcript	1512156	1534681	.	+	.	gene_id "ENSG00000197785.13"; transcript_id "PB.13.2"; gffcompare_gene_id "PB.13"; gffcompare_gene_name "ATAD3A"; gffcompare_xloc "XLOC_000010"; gffcompare_cmp_ref "ENST00000378756.7"; gffcompare_class_code "="; gffcompare_tss_id "TSS13"; gffcompare_contained_in "NA"; matchAnnot_cmp_ref "ATAD3A-001"; matchAnnot_skipped_exon "NA"; matchAnnot_extra_exon "NA"; matchAnnot_gene "ATAD3A"; matchAnnot_score "5"; matchAnnot_ENST "ENST00000378756.7"; matchAnnot_ENSG "ENSG00000197785.13"; matchAnnot_length "2492"; matchAnnot_num_exons "16"; matchAnnot_exon_list "['[1]', '[2]', '[3]', '[4]', '[5]', '[6]', '[7]', '[8]', '[9]', '[10]', '[11]', '[12]', '[13]', '[14]', '[15]', '[16]']"; matchAnnot_comments "kept first and last exon"; matchAnnot_exon_skipped_id "NA";
+chr1	PacBio	exon	1512156	1512473	.	+	.	gene_id "ENSG00000197785.13"; transcript_id "PB.13.2"; gffcompare_gene_id "PB.13"; exon_number "1"
+chr1	PacBio	exon	1516012	1516088	.	+	.	gene_id "ENSG00000197785.13"; transcript_id "PB.13.2"; gffcompare_gene_id "PB.13"; exon_number "2"
+chr1	PacBio	exon	1517311	1517412	.	+	.	gene_id "ENSG00000197785.13"; transcript_id "PB.13.2"; gffcompare_gene_id "PB.13"; exon_number "3"
+chr1	PacBio	exon	1517716	1517775	.	+	.	gene_id "ENSG00000197785.13"; transcript_id "PB.13.2"; gffcompare_gene_id "PB.13"; exon_number "4"
+chr1	PacBio	exon	1518921	1518990	.	+	.	gene_id "ENSG00000197785.13"; transcript_id "PB.13.2"; gffcompare_gene_id "PB.13"; exon_number "5"
+chr1	PacBio	exon	1520141	1520306	.	+	.	gene_id "ENSG00000197785.13"; transcript_id "PB.13.2"; gffcompare_gene_id "PB.13"; exon_number "6"
+chr1	PacBio	exon	1520548	1520617	.	+	.	gene_id "ENSG00000197785.13"; transcript_id "PB.13.2"; gffcompare_gene_id "PB.13"; exon_number "7"
+chr1	PacBio	exon	1522744	1522899	.	+	.	gene_id "ENSG00000197785.13"; transcript_id "PB.13.2"; gffcompare_gene_id "PB.13"; exon_number "8"
+chr1	PacBio	exon	1523511	1523567	.	+	.	gene_id "ENSG00000197785.13"; transcript_id "PB.13.2"; gffcompare_gene_id "PB.13"; exon_number "9"
+chr1	PacBio	exon	1523839	1523964	.	+	.	gene_id "ENSG00000197785.13"; transcript_id "PB.13.2"; gffcompare_gene_id "PB.13"; exon_number "10"
+chr1	PacBio	exon	1524273	1524397	.	+	.	gene_id "ENSG00000197785.13"; transcript_id "PB.13.2"; gffcompare_gene_id "PB.13"; exon_number "11"
+chr1	PacBio	exon	1525240	1525291	.	+	.	gene_id "ENSG00000197785.13"; transcript_id "PB.13.2"; gffcompare_gene_id "PB.13"; exon_number "12"
+chr1	PacBio	exon	1526461	1526531	.	+	.	gene_id "ENSG00000197785.13"; transcript_id "PB.13.2"; gffcompare_gene_id "PB.13"; exon_number "13"
+chr1	PacBio	exon	1527695	1527862	.	+	.	gene_id "ENSG00000197785.13"; transcript_id "PB.13.2"; gffcompare_gene_id "PB.13"; exon_number "14"
+chr1	PacBio	exon	1529223	1529331	.	+	.	gene_id "ENSG00000197785.13"; transcript_id "PB.13.2"; gffcompare_gene_id "PB.13"; exon_number "15"
+chr1	PacBio	exon	1533926	1534681	.	+	.	gene_id "ENSG00000197785.13"; transcript_id "PB.13.2"; gffcompare_gene_id "PB.13"; exon_number "16"
+chr1	PacBio	transcript	1512164	1521296	.	+	.	gene_id "ENSG00000197785.13"; transcript_id "PB.13.1"; gffcompare_gene_id "PB.13"; gffcompare_gene_name "ATAD3A"; gffcompare_xloc "XLOC_000010"; gffcompare_cmp_ref "ENST00000378755.9"; gffcompare_class_code "j"; gffcompare_tss_id "TSS13"; gffcompare_contained_in "NA"; matchAnnot_cmp_ref "ATAD3A-001"; matchAnnot_skipped_exon "NA"; matchAnnot_extra_exon "NA"; matchAnnot_gene "ATAD3A"; matchAnnot_score "2"; matchAnnot_ENST "ENST00000378756.7"; matchAnnot_ENSG "ENSG00000197785.13"; matchAnnot_length "2492"; matchAnnot_num_exons "16"; matchAnnot_exon_list "['[1]', '[2]', '[3]', '[4]', '[5]', '[6]', '[7]']"; matchAnnot_comments "failed first and last exon"; matchAnnot_exon_skipped_id "NA";
+chr1	PacBio	exon	1512164	1512473	.	+	.	gene_id "ENSG00000197785.13"; transcript_id "PB.13.1"; gffcompare_gene_id "PB.13"; exon_number "1"
+chr1	PacBio	exon	1516012	1516088	.	+	.	gene_id "ENSG00000197785.13"; transcript_id "PB.13.1"; gffcompare_gene_id "PB.13"; exon_number "2"
+chr1	PacBio	exon	1517311	1517412	.	+	.	gene_id "ENSG00000197785.13"; transcript_id "PB.13.1"; gffcompare_gene_id "PB.13"; exon_number "3"
+chr1	PacBio	exon	1517716	1517775	.	+	.	gene_id "ENSG00000197785.13"; transcript_id "PB.13.1"; gffcompare_gene_id "PB.13"; exon_number "4"
+chr1	PacBio	exon	1518921	1518990	.	+	.	gene_id "ENSG00000197785.13"; transcript_id "PB.13.1"; gffcompare_gene_id "PB.13"; exon_number "5"
+chr1	PacBio	exon	1520141	1520306	.	+	.	gene_id "ENSG00000197785.13"; transcript_id "PB.13.1"; gffcompare_gene_id "PB.13"; exon_number "6"
+chr1	PacBio	exon	1520548	1521296	.	+	.	gene_id "ENSG00000197785.13"; transcript_id "PB.13.1"; gffcompare_gene_id "PB.13"; exon_number "7"
+chr1	PacBio	transcript	1512553	1590812	.	+	.	gene_id "ENSG00000197785.13"; transcript_id "PB.13.3"; gffcompare_gene_id "PB.13"; gffcompare_gene_name "ATAD3A"; gffcompare_xloc "XLOC_000010"; gffcompare_cmp_ref "ENST00000378755.9"; gffcompare_class_code "j"; gffcompare_tss_id "TSS14"; gffcompare_contained_in "NA"; matchAnnot_cmp_ref "ATAD3A-002"; matchAnnot_skipped_exon "NA"; matchAnnot_extra_exon "8"; matchAnnot_gene "ATAD3A"; matchAnnot_score "2"; matchAnnot_ENST "ENST00000339113.8"; matchAnnot_ENSG "ENSG00000197785.13"; matchAnnot_length "2330"; matchAnnot_num_exons "16"; matchAnnot_exon_list "['[1]', '[2]', '[3]', '[4]', '[5]', '[6]', '[7]', '[]']"; matchAnnot_comments "failed first and last exon"; matchAnnot_exon_skipped_id "NA";
+chr1	PacBio	exon	1512553	1512690	.	+	.	gene_id "ENSG00000197785.13"; transcript_id "PB.13.3"; gffcompare_gene_id "PB.13"; exon_number "1"
+chr1	PacBio	exon	1516012	1516088	.	+	.	gene_id "ENSG00000197785.13"; transcript_id "PB.13.3"; gffcompare_gene_id "PB.13"; exon_number "2"
+chr1	PacBio	exon	1517311	1517412	.	+	.	gene_id "ENSG00000197785.13"; transcript_id "PB.13.3"; gffcompare_gene_id "PB.13"; exon_number "3"
+chr1	PacBio	exon	1517716	1517775	.	+	.	gene_id "ENSG00000197785.13"; transcript_id "PB.13.3"; gffcompare_gene_id "PB.13"; exon_number "4"
+chr1	PacBio	exon	1518921	1518990	.	+	.	gene_id "ENSG00000197785.13"; transcript_id "PB.13.3"; gffcompare_gene_id "PB.13"; exon_number "5"
+chr1	PacBio	exon	1520141	1520306	.	+	.	gene_id "ENSG00000197785.13"; transcript_id "PB.13.3"; gffcompare_gene_id "PB.13"; exon_number "6"
+chr1	PacBio	exon	1520548	1521114	.	+	.	gene_id "ENSG00000197785.13"; transcript_id "PB.13.3"; gffcompare_gene_id "PB.13"; exon_number "7"
+chr1	PacBio	exon	1590633	1590812	.	+	.	gene_id "ENSG00000197785.13"; transcript_id "PB.13.3"; gffcompare_gene_id "PB.13"; exon_number "8"

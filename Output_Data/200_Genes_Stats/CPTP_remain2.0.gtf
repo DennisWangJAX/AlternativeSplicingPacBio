@@ -1,0 +1,10 @@
+##gff-version 2
+##source-version rtracklayer 1.38.3
+##date 2018-02-21
+chr1	PacBio	transcript	1324778	1328892	.	+	.	gene_id "ENSG00000224051.6"; transcript_id "PB.8.2"; gffcompare_gene_id "PB.8"; gffcompare_gene_name "CPTP"; gffcompare_xloc "XLOC_000006"; gffcompare_cmp_ref "ENST00000343938.8"; gffcompare_class_code "="; gffcompare_tss_id "TSS9"; gffcompare_contained_in "NA"; matchAnnot_cmp_ref "CPTP-001"; matchAnnot_skipped_exon "NA"; matchAnnot_extra_exon "NA"; matchAnnot_gene "CPTP"; matchAnnot_score "5"; matchAnnot_ENST "ENST00000343938.8"; matchAnnot_ENSG "ENSG00000224051.6"; matchAnnot_length "2190"; matchAnnot_num_exons "3"; matchAnnot_exon_list "['[1]', '[2]', '[3]']"; matchAnnot_comments "kept first and last exon"; matchAnnot_exon_skipped_id "NA";
+chr1	PacBio	exon	1324778	1325102	.	+	.	gene_id "ENSG00000224051.6"; transcript_id "PB.8.2"; gffcompare_gene_id "PB.8"; exon_number "1"
+chr1	PacBio	exon	1326836	1327032	.	+	.	gene_id "ENSG00000224051.6"; transcript_id "PB.8.2"; gffcompare_gene_id "PB.8"; exon_number "2"
+chr1	PacBio	exon	1327241	1328892	.	+	.	gene_id "ENSG00000224051.6"; transcript_id "PB.8.2"; gffcompare_gene_id "PB.8"; exon_number "3"
+chr1	PacBio	transcript	1324804	1328893	.	+	.	gene_id "ENSG00000224051.6"; transcript_id "PB.8.1"; gffcompare_gene_id "PB.8"; gffcompare_gene_name "CPTP"; gffcompare_xloc "XLOC_000006"; gffcompare_cmp_ref "ENST00000464957.1"; gffcompare_class_code "="; gffcompare_tss_id "TSS9"; gffcompare_contained_in "NA"; matchAnnot_cmp_ref "CPTP-002"; matchAnnot_skipped_exon "NA"; matchAnnot_extra_exon "NA"; matchAnnot_gene "CPTP"; matchAnnot_score "5"; matchAnnot_ENST "ENST00000464957.1"; matchAnnot_ENSG "ENSG00000224051.6"; matchAnnot_length "1101"; matchAnnot_num_exons "2"; matchAnnot_exon_list "['[1]', '[2]']"; matchAnnot_comments "kept first and last exon"; matchAnnot_exon_skipped_id "NA";
+chr1	PacBio	exon	1324804	1325102	.	+	.	gene_id "ENSG00000224051.6"; transcript_id "PB.8.1"; gffcompare_gene_id "PB.8"; exon_number "1"
+chr1	PacBio	exon	1327241	1328893	.	+	.	gene_id "ENSG00000224051.6"; transcript_id "PB.8.1"; gffcompare_gene_id "PB.8"; exon_number "2"

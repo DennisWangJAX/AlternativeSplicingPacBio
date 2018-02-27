@@ -1,0 +1,9 @@
+##gff-version 2
+##source-version rtracklayer 1.38.3
+##date 2018-02-26
+chr3	PacBio	transcript	172505676	172525783	.	-	.	gene_id "ENSG00000121858.10"; transcript_id "PB.14504.4"; gffcompare_gene_id "PB.14504"; gffcompare_gene_name "TNFSF10"; gffcompare_xloc "XLOC_008031"; gffcompare_cmp_ref "ENST00000241261.6"; gffcompare_class_code "j"; gffcompare_tss_id "TSS14150"; gffcompare_contained_in "NA"; matchAnnot_cmp_ref "TNFSF10-002"; matchAnnot_skipped_exon "NA"; matchAnnot_extra_exon "2,5"; matchAnnot_gene "TNFSF10"; matchAnnot_score "2"; matchAnnot_ENST "ENST00000420541.6"; matchAnnot_ENSG "ENSG00000121858.10"; matchAnnot_length "1619"; matchAnnot_num_exons "3"; matchAnnot_exon_list "['[1]', '[]', '[2]', '[3]', '[]']"; matchAnnot_comments "kept first and last exon"; matchAnnot_exon_skipped_id "NA";
+chr3	PacBio	exon	172505676	172506919	.	-	.	gene_id "ENSG00000121858.10"; transcript_id "PB.14504.4"; gffcompare_gene_id "PB.14504"; exon_number "1"
+chr3	PacBio	exon	172509217	172511659	.	-	.	gene_id "ENSG00000121858.10"; transcript_id "PB.14504.4"; gffcompare_gene_id "PB.14504"; exon_number "2"
+chr3	PacBio	exon	172514861	172514998	.	-	.	gene_id "ENSG00000121858.10"; transcript_id "PB.14504.4"; gffcompare_gene_id "PB.14504"; exon_number "3"
+chr3	PacBio	exon	172523253	172523473	.	-	.	gene_id "ENSG00000121858.10"; transcript_id "PB.14504.4"; gffcompare_gene_id "PB.14504"; exon_number "4"
+chr3	PacBio	exon	172525765	172525783	.	-	.	gene_id "ENSG00000121858.10"; transcript_id "PB.14504.4"; gffcompare_gene_id "PB.14504"; exon_number "5"

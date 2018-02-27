@@ -1,6 +1,6 @@
 ##gff-version 2
 ##source-version rtracklayer 1.38.3
-##date 2018-02-24
+##date 2018-02-26
 chr12	PacBio	transcript	55931096	55954020	.	+	.	gene_id "ENSG00000065357.19"; transcript_id "PB.4244.94"; gffcompare_gene_id "PB.4244"; gffcompare_gene_name "DGKA"; gffcompare_xloc "XLOC_002468"; gffcompare_cmp_ref "ENST00000331886.9"; gffcompare_class_code "j"; gffcompare_tss_id "TSS4264"; gffcompare_contained_in "NA"; matchAnnot_cmp_ref "DGKA-002"; matchAnnot_skipped_exon "NA"; matchAnnot_extra_exon "1,10,11,12,13,14,15,16,17,18,19,20,21,22"; matchAnnot_gene "DGKA"; matchAnnot_score "2"; matchAnnot_ENST "ENST00000549097.5"; matchAnnot_ENSG "ENSG00000065357.19"; matchAnnot_length "1444"; matchAnnot_num_exons "9"; matchAnnot_exon_list "['[]', '[2]', '[3]', '[4]', '[5]', '[6]', '[7]', '[8]', '[9]', '[]', '[]', '[]', '[]', '[]', '[]', '[]', '[]', '[]', '[]', '[]', '[]', '[]']"; matchAnnot_comments "failed first and last exon"; matchAnnot_exon_skipped_id "NA";
 chr12	PacBio	exon	55931096	55931344	.	+	.	gene_id "ENSG00000065357.19"; transcript_id "PB.4244.94"; gffcompare_gene_id "PB.4244"; exon_number "1"
 chr12	PacBio	exon	55936423	55936567	.	+	.	gene_id "ENSG00000065357.19"; transcript_id "PB.4244.94"; gffcompare_gene_id "PB.4244"; exon_number "2"

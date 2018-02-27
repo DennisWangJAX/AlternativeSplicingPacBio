@@ -1,6 +1,6 @@
 ##gff-version 2
 ##source-version rtracklayer 1.38.3
-##date 2018-02-24
+##date 2018-02-26
 chr1	PacBio	transcript	160678748	160711821	.	-	.	gene_id "ENSG00000117091.9"; transcript_id "PB.1819.5"; gffcompare_gene_id "PB.1819"; gffcompare_gene_name "CD48"; gffcompare_xloc "XLOC_001084"; gffcompare_cmp_ref "ENST00000613788.1"; gffcompare_class_code "="; gffcompare_tss_id "TSS1872"; gffcompare_contained_in "NA"; matchAnnot_cmp_ref "RP11-404F10.2-002"; matchAnnot_skipped_exon "4"; matchAnnot_extra_exon "3"; matchAnnot_gene "RP11-404F10.2"; matchAnnot_score "2"; matchAnnot_ENST "ENST00000598917.6"; matchAnnot_ENSG "ENSG00000228863.8"; matchAnnot_length "1308"; matchAnnot_num_exons "6"; matchAnnot_exon_list "['[3]', '[5]', '[]']"; matchAnnot_comments "failed first and last exon"; matchAnnot_exon_skipped_id "NA";
 chr1	PacBio	exon	160678748	160681468	.	-	.	gene_id "ENSG00000117091.9"; transcript_id "PB.1819.5"; gffcompare_gene_id "PB.1819"; exon_number "1"
 chr1	PacBio	exon	160684887	160685189	.	-	.	gene_id "ENSG00000117091.9"; transcript_id "PB.1819.5"; gffcompare_gene_id "PB.1819"; exon_number "2"

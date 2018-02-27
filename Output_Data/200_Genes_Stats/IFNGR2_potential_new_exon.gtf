@@ -1,0 +1,14 @@
+##gff-version 2
+##source-version rtracklayer 1.38.3
+##date 2018-02-26
+chr21	PacBio	transcript	33403421	33437518	.	+	.	gene_id "ENSG00000159128.14"; transcript_id "PB.12744.118"; gffcompare_gene_id "PB.12744"; gffcompare_gene_name "IFNGR2"; gffcompare_xloc "XLOC_007062"; gffcompare_cmp_ref "ENST00000381995.5"; gffcompare_class_code "j"; gffcompare_tss_id "TSS12420"; gffcompare_contained_in "NA"; matchAnnot_cmp_ref "IFNGR2-003"; matchAnnot_skipped_exon "NA"; matchAnnot_extra_exon "8,9,10"; matchAnnot_gene "IFNGR2"; matchAnnot_score "2"; matchAnnot_ENST "ENST00000439213.5"; matchAnnot_ENSG "ENSG00000159128.14"; matchAnnot_length "906"; matchAnnot_num_exons "7"; matchAnnot_exon_list "['[1]', '[2]', '[3]', '[4]', '[5]', '[6]', '[7]', '[]', '[]', '[]']"; matchAnnot_comments "kept first and last exon"; matchAnnot_exon_skipped_id "NA";
+chr21	PacBio	exon	33403421	33403616	.	+	.	gene_id "ENSG00000159128.14"; transcript_id "PB.12744.118"; gffcompare_gene_id "PB.12744"; exon_number "1"
+chr21	PacBio	exon	33410836	33410892	.	+	.	gene_id "ENSG00000159128.14"; transcript_id "PB.12744.118"; gffcompare_gene_id "PB.12744"; exon_number "2"
+chr21	PacBio	exon	33411445	33411575	.	+	.	gene_id "ENSG00000159128.14"; transcript_id "PB.12744.118"; gffcompare_gene_id "PB.12744"; exon_number "3"
+chr21	PacBio	exon	33414888	33415020	.	+	.	gene_id "ENSG00000159128.14"; transcript_id "PB.12744.118"; gffcompare_gene_id "PB.12744"; exon_number "4"
+chr21	PacBio	exon	33421480	33421685	.	+	.	gene_id "ENSG00000159128.14"; transcript_id "PB.12744.118"; gffcompare_gene_id "PB.12744"; exon_number "5"
+chr21	PacBio	exon	33426884	33427032	.	+	.	gene_id "ENSG00000159128.14"; transcript_id "PB.12744.118"; gffcompare_gene_id "PB.12744"; exon_number "6"
+chr21	PacBio	exon	33432177	33432336	.	+	.	gene_id "ENSG00000159128.14"; transcript_id "PB.12744.118"; gffcompare_gene_id "PB.12744"; exon_number "7"
+chr21	PacBio	exon	33432714	33432871	.	+	.	gene_id "ENSG00000159128.14"; transcript_id "PB.12744.118"; gffcompare_gene_id "PB.12744"; exon_number "8"
+chr21	PacBio	exon	33436828	33436945	.	+	.	gene_id "ENSG00000159128.14"; transcript_id "PB.12744.118"; gffcompare_gene_id "PB.12744"; exon_number "9"
+chr21	PacBio	exon	33437026	33437518	.	+	.	gene_id "ENSG00000159128.14"; transcript_id "PB.12744.118"; gffcompare_gene_id "PB.12744"; exon_number "10"

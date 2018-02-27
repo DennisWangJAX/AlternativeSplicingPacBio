@@ -1,6 +1,6 @@
 ##gff-version 2
 ##source-version rtracklayer 1.38.3
-##date 2018-02-24
+##date 2018-02-26
 chr17	PacBio	transcript	74609375	74623850	.	-	.	gene_id "ENSG00000186407.6"; transcript_id "PB.8915.3"; gffcompare_gene_id "PB.8915"; gffcompare_gene_name "CD300E"; gffcompare_xloc "XLOC_004983"; gffcompare_cmp_ref "ENST00000392619.1"; gffcompare_class_code "="; gffcompare_tss_id "TSS8772"; gffcompare_contained_in "NA"; matchAnnot_cmp_ref "CD300E-001"; matchAnnot_skipped_exon "NA"; matchAnnot_extra_exon "NA"; matchAnnot_gene "CD300E"; matchAnnot_score "5"; matchAnnot_ENST "ENST00000392619.1"; matchAnnot_ENSG "ENSG00000186407.6"; matchAnnot_length "3501"; matchAnnot_num_exons "4"; matchAnnot_exon_list "['[1]', '[2]', '[3]', '[4]']"; matchAnnot_comments "kept first and last exon"; matchAnnot_exon_skipped_id "NA";
 chr17	PacBio	exon	74609375	74612773	.	-	.	gene_id "ENSG00000186407.6"; transcript_id "PB.8915.3"; gffcompare_gene_id "PB.8915"; exon_number "1"
 chr17	PacBio	exon	74613925	74614033	.	-	.	gene_id "ENSG00000186407.6"; transcript_id "PB.8915.3"; gffcompare_gene_id "PB.8915"; exon_number "2"
