@@ -32,3 +32,5 @@ All for updates in intron_filter_by_GRanges function
 3. Transform all the preliminary binary forms into exon only binary forms through self-learning. 
 4. First row contains unique group number with Manhattan Distance
 5. Column indicates isoform names.
+6. Added new function - heatmap_exon_binary.R
+  plot with the input file name "*_exon_only_binary.csv"
