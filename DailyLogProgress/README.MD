@@ -23,3 +23,12 @@ All for updates in intron_filter_by_GRanges function
 
 2/27:
 1. Added variable (repetition_test) in intron_filter_by_gff to save running time if the files already exist.
+
+2/28:
+1. Added new function - generate_exon_only_binary.R
+2. Sample: generate_exon_only_binary(binary_folder_path = "/Users/c-wangq/analysis/SplicingPlots/binary_results/",
+                          result_folder_name = "grouped_remain_binary_results",
+                          custom_gene = NULL)
+3. Transform all the preliminary binary forms into exon only binary forms through self-learning. 
+4. First row contains unique group number with Manhattan Distance
+5. Column indicates isoform names.
