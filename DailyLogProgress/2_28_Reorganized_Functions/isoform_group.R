@@ -21,7 +21,7 @@ isoform_group <- function(input_binary_mat, isoform_names){
 
   }
 
-  if(sum(input_binary_mat[nrow(input_binary_mat), ]) > 0){
+  if(sum(input_binary_mat[nrow(input_binary_mat), ]) > 0 & sum(input_binary_mat[nrow(input_binary_mat)-1, ]) == 0){
     exon_start_index <- c(exon_start_index, nrow(input_binary_mat))
     exon_end_index <- c(exon_end_index, nrow(input_binary_mat))
   }
