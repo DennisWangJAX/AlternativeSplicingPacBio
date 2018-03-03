@@ -38,3 +38,4 @@ All for updates in intron_filter_by_GRanges function
 
 3/2:
 1. Add autogenerate_plots.R to generate new plots in a directory
+2. Modified the pheatmap functions. heatmap_coverage.R
