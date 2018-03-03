@@ -35,3 +35,6 @@ All for updates in intron_filter_by_GRanges function
 6. Added new function - heatmap_exon_binary.R
   plot with the input file name "*_exon_only_binary.csv"
 7. Add Line 24 - 27 in isoform_group.R to fix exception when the last row is an exon.
+
+3/2:
+1. Add autogenerate_plots.R to generate new plots in a directory
